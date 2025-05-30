@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: digitalLibrary
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Kiran@2025
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  security:
+    user:
+      name: kiran
+      password: kiran@2002
+
+  oauth2:
+    client:
+      registration:
+        github:
+          client-id: Ov23liLkCOUW29F2dYr7
+          client-secret: 48dab3f26900c21a713ba3c41ee24e33652fa3a2
+
+
