@@ -1,3 +1,4 @@
+
 # 📚 Java Spring Boot Digital Library Application
 
 A **Digital Library Management System** built using **Java Spring Boot** and **PostgreSQL**.  
@@ -23,6 +24,23 @@ It allows users to manage books, memberships, and borrowing/return transactions 
 - **Version Control:** Git, GitHub
 
 ---
+## 📂 Project Structure
+
+digital-library/
+├── src/
+│ ├── main/
+│ │ ├── java/
+│ │ │ └── org.digitalLibrary/
+│ │ └── resources/
+│ │ └── application.properties
+│ └── test/
+│ └── java/
+│ └── org.digitalLibrary/
+├── pom.xml
+└── README.md
+
+## FrontEnd
+Access Endpoints via Postman
 
 ## Usage
 
@@ -33,4 +51,3 @@ It allows users to manage books, memberships, and borrowing/return transactions 
 **Transactions API** : Borrow and return books.
 
 **Validation**: Business rules applied before saving/updating records.
-
